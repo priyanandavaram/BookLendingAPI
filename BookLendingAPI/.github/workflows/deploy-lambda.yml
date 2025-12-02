@@ -1,8 +1,8 @@
-name: Deploy BookApi Lambda (.NET 8)
+name: Deploy BookLendingAPI Lambda (.NET 8)
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   deploy:
